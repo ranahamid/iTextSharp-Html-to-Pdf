@@ -1,0 +1,16 @@
+﻿@model List<int>
+<html>
+<head>
+    <title>Rana Hamid</title>
+</head>
+<body>
+   @{ 
+       foreach(var item in Model)
+       {
+           <ul>
+               <li>@item</li>
+           </ul>
+       }
+   }
+</body>
+</html>
